@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "build:extension": "next build && next export -o extension-dist",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,7 +17,8 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-icons": "^4.3.1",
-    "sass": "^1.51.0"
+    "sass": "^1.51.0",
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
     "eslint": "8.14.0",
