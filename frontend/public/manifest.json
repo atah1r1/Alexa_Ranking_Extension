@@ -1,0 +1,13 @@
+{
+  "name": "AlexaRanking",
+  "version": "1.0.0",
+  "description": "A Google Chrome Extension that helps you visualize your for the Alexa Ranking",
+  "host_permissions": ["*"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "/favicon.ico"
+  },
+  "manifest_version": 3
+}
